@@ -93,7 +93,7 @@ ol {
 
 .search-form__fieldset-title {
   font-family: "Fira Sans Condensed", "Arial", sans-serif;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
@@ -163,7 +163,7 @@ ol {
   flex-shrink: 0;
   width: 20px;
   height: 20px;
-  margin-right: 5px;
+  margin-right: 2px;
   border: 1px solid #fff;
 }
 
@@ -190,6 +190,7 @@ ol {
   height: 100%;
   box-sizing: border-box;
   display: flex;
+  gap: 25px;
   flex-direction: column;
 }
 
@@ -198,7 +199,7 @@ ol {
 }
 
 .title {
-  margin-bottom: 26px;
+  margin-top: 3px;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 75px;
   line-height: 94%;
@@ -208,7 +209,7 @@ ol {
 .content__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 26px;
 }
 
 .content__list-container {
@@ -272,7 +273,7 @@ ol {
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -304,7 +305,7 @@ ol {
 }
 
 .button:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .button:focus {
